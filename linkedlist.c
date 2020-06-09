@@ -68,7 +68,7 @@ void insert_n(int x,int  pos)
 	}
 	else
 	{
-		if(length(head)<pos)
+		if(length()<pos)
 		{
 			printf("Index invalid....");
 			free(temp1);
@@ -177,7 +177,7 @@ void reverse()
 void main()
 {
 	
-	struct Node* head = NULL;
+	
 	int i,n,x;
 	int  ch ;
 	int cont;
