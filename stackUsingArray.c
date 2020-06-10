@@ -34,6 +34,11 @@ void display()
 
 	int i;
 	printf("\nStatus of elements in stack :");
+	if(top == -1)
+	{
+		printf("\nError: stack empty!!");
+		return;	
+	}
 	for(i=top;i>=0;i--)
 	{
 		printf("\n%d",A[i]);
