@@ -146,7 +146,7 @@ void modify(int x,int pos)
 		printf("Index invalid");
 	else
 	{
-		for(i=0;i<pos;i++)
+		for(i=0;i<pos-1;i++)
 		{
 			temp1 = temp1->next;		
 		}	
