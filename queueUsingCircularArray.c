@@ -93,7 +93,7 @@ void main()
 	do
 	{
 		system("clear");
-		printf("\n       STACK OPERATIONS (using array)");
+		printf("\n       QUEUE OPERATIONS (using circular array)");
 		printf("\n--------------------------------------------");
 		printf("\n1.ENQUEUE");
 		printf("\n2.DEQUEUE");
